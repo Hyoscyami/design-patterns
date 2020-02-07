@@ -6,3 +6,5 @@
 5. chapter5是工厂模式
 6. chapter6是原型模式
 7. chapter7是模板方法模式
+8. chapter8是外观模式
+9. chapter9是构造者模式
