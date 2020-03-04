@@ -1,0 +1,23 @@
+package chapter14;
+
+public class Originator {
+    private String state;
+
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+    public Memento createMemento(){
+//        如果是需要保存多个状态，Memento构造函数传入多个值就行了
+        return new Memento(state);
+    }
+    public void setMemento(Memento memento){
+        state = memento.getState();
+    }
+    public void show(){
+        System.out.println("state:" + state);
+    }
+}

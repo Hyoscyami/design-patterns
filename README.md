@@ -8,3 +8,5 @@
 7. chapter7是模板方法模式
 8. chapter8是外观模式
 9. chapter9是构造者模式
+10. chapter10是观察者模式
+11. chapter11是抽象工厂模式
